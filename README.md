@@ -120,7 +120,7 @@ Two convolution + average-pooling blocks, dropout and three dense layers. The sc
 Suggested order for the neural-network repositories:
 
 1. [Perceptron](https://github.com/parag1604/Perceptron): the perceptron learning rule, its convergence, and where it fails (XOR)
-2. [Simple-Neural-Network](https://github.com/parag1604/Simple-Neural-Network): a two-layer network in numpy with hand-written backpropagation, gradient checking and optimizers
+2. [MLP-Backprop-in-NumPy](https://github.com/parag1604/MLP-Backprop-in-NumPy): a two-layer network in numpy with hand-written backpropagation, gradient checking and optimizers
 3. [Scalar-Autograd](https://github.com/parag1604/Scalar-Autograd): a tiny scalar automatic-differentiation engine that automates backpropagation
 4. [NN-from-Scratch-to-PyTorch](https://github.com/parag1604/NN-from-Scratch-to-PyTorch): from a numpy MLP to PyTorch autograd, layers and optimizers, ending on MNIST
 5. [Basic-Image-Classification](https://github.com/parag1604/Basic-Image-Classification): CNNs in PyTorch on MNIST, Fashion-MNIST and CIFAR-10, with batch norm and dropout
