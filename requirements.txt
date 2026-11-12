@@ -1,0 +1,7 @@
+numpy
+matplotlib
+jax
+flax>=0.11
+optax
+torch
+torchvision
