@@ -6,7 +6,7 @@ Code that starts from linear regression in numpy and rewrites it step by step: J
 
 ## Theory
 
-Lecture notes for this topic are coming soon on https://parag1604.github.io/notes
+Please note that the theory corresponding to the codes is hosted on this [page](https://parag1604.github.io/notes/Machine-Learning/Neural-Networks)
 
 ## Python Environment Setup
 
