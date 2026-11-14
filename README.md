@@ -23,9 +23,9 @@ pip install -r requirements.txt
 
 ## Data
 
-- Versions 0-4: synthetic data (`generate_data` in `utils.py`), so no download is needed.
+- Versions 0-4: synthetic data (`generate_data` in `utils.py`).
 - Version 5: the Kaggle "MNIST in CSV" dataset, https://www.kaggle.com/datasets/oddrationale/mnist-in-csv. Download it and place `mnist_train.csv` at `./data/mnist_train.csv`, or pass another path with `--data`. Only the training file is used: 1/6 of it is held out as a test set.
-- Versions 6-8: MNIST is downloaded automatically by torchvision into `./data/MNIST/` on the first run (change it with `--data-dir`).
+- Versions 6-8: the MNIST dataset (LeCun et al., 1998), http://yann.lecun.com/exdb/mnist/. It is downloaded automatically by torchvision into `./data/MNIST/` on the first run (change it with `--data-dir`).
 
 ## Running
 
